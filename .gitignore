@@ -80,3 +80,8 @@ DerivedDataCache/*
 # Wheat models and textures
 WheatSimulation/Content/Wheat/Models/*.fbx
 WheatSimulation/Content/Wheat/Textures/*.png
+
+# UE5 log files
+*.log
+WheatSimulation/Saved/Crashes/**
+WheatSimulation/Saved/Config/CrashReportClient/**/CrashReportClient.ini

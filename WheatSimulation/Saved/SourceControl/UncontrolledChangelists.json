@@ -5,11 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/Default/Levels/SimBlank.umap",
-				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/SimBlank/Levels/SimBlank.umap",
 				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/Default/Blueprints/BP_SimFloatingPawn.uasset",
 				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/Default/Blueprints/BP_SimGameMode.uasset",
-				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/SimBlank/Blueprints/BP_SimGameMode.uasset",
 				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/Default/Blueprints/BP_SimPlayerController.uasset",
 				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/Default/Materials/SkySphere_Equirectangular.uasset",
 				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/Default/Materials/MI_StarSkySphere.uasset",
@@ -17,6 +14,23 @@
 				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/Default/Materials/T_Stars.uasset",
 				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/Default/Materials/MI_NoiserClouds.uasset",
 				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/Default/Blueprints/UMG_Profiling.uasset",
+				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/Scenes/Simulation.umap",
+				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/M_Test.uasset",
+				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/Materials/Soil/ground_roots_smspdebp_8k/Ground_Roots_smspdebp_8K_Gloss.uasset",
+				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/Materials/Soil/ground_roots_smspdebp_8k/Ground_Roots_smspdebp_8K_BaseColor.uasset",
+				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/Materials/Soil/ground_roots_smspdebp_8k/Ground_Roots_smspdebp_8K_Normal.uasset",
+				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/Materials/Soil/ground_roots_smspdebp_8k/Ground_Roots_smspdebp_8K_Roughness.uasset",
+				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/Materials/Soil/ground_roots_smspdebp_8k/Ground_Roots_smspdebp_8K_Cavity.uasset",
+				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/Materials/Soil/ground_roots_smspdebp_8k/Ground_Roots_smspdebp_8K_Displacement.uasset",
+				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/Materials/Soil/ground_roots_smspdebp_8k/Ground_Roots_smspdebp_8K_AO.uasset",
+				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/Materials/Soil/ground_roots_smspdebp_8k/Ground_Roots_smspdebp_8K_Specular.uasset",
+				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/Materials/Soil/ground_roots_smspdebp_8k/M_Ground_Roots.uasset",
+				"/home/elijahmickelson/Programs/Linux_Unreal_Engine_5.5.4/Engine/Content/BasicShapes/Cube.uasset",
+				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/Materials/RVT_Height.uasset",
+				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/Materials/RVT_Main.uasset",
+				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/Default/Levels/SimBlank.umap",
+				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/SimBlank/Levels/SimBlank.umap",
+				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/SimBlank/Blueprints/BP_SimGameMode.uasset",
 				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/Default/Levels/Thumbnails/SimBlank_Thumbnail.uasset",
 				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/SimBlank/Levels/Thumbnails/SimBlank_Thumbnail.uasset",
 				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/SimBlank/Blueprints/UMG_Profiling.uasset",
@@ -26,8 +40,7 @@
 				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/SimBlank/Materials/MI_StarSkySphere.uasset",
 				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/SimBlank/Materials/SkySphere_Equirectangular.uasset",
 				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/SimBlank/Blueprints/BP_SimPlayerController.uasset",
-				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/SimBlank/Blueprints/BP_SimFloatingPawn.uasset",
-				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/Scenes/Simulation.umap"
+				"/home/elijahmickelson/Projects/wheat/LSystemsForSegmentation-Unreal/WheatSimulation/Content/SimBlank/Blueprints/BP_SimFloatingPawn.uasset"
 			]
 		}
 	]
