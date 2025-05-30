@@ -72,3 +72,11 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+
+# Blender backup files
+*.blend1
+
+# Wheat models and textures
+WheatSimulation/Content/Wheat/Models/*.fbx
+WheatSimulation/Content/Wheat/Textures/*.png
