@@ -77,9 +77,9 @@ WheatSimulation/DerivedDataCache/*
 # Blender backup files
 *.blend1
 
-# Imported heat models and textures
-WheatSimulation/Content/Wheat/Models/*.fbx
-WheatSimulation/Content/Wheat/Textures/*.png
-
 # Assets outside of project directory
 Assets/*
+
+# Large assets to exclude from git - instead download from google drive
+WheatSimulation/Content/Wheat/*
+WheatSimulation/Content/Materials/Soil/*
