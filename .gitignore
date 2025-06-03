@@ -83,3 +83,12 @@ Assets/*
 # Large assets to exclude from git - instead download from google drive
 WheatSimulation/Content/Wheat/*
 WheatSimulation/Content/Materials/Soil/*
+
+# VSCode generated and workspace files
+WheatSimulation/.vscode/*
+WheatSimulation/Makefile
+WheatSimulation/WheatSimulation.code-workspace
+WheatSimulation/.ignore
+
+# Script for quickly launching UE5 on linux
+launch_ue5.sh
