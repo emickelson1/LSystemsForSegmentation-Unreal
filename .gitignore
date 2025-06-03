@@ -84,11 +84,12 @@ Assets/*
 WheatSimulation/Content/Wheat/*
 WheatSimulation/Content/Materials/Soil/*
 
-# VSCode generated and workspace files
+# VSCode related files
 WheatSimulation/.vscode/*
 WheatSimulation/Makefile
 WheatSimulation/WheatSimulation.code-workspace
 WheatSimulation/.ignore
+WheatSimulation/GenerateProjectFiles.sh
 
 # Script for quickly launching UE5 on linux
 launch_ue5.sh
