@@ -16,5 +16,11 @@ class WHEATSIMULATION_API USegmentationHandler : public UGameInstanceSubsystem
 
 public:
 	UFUNCTION(BlueprintCallable, Category = "Raycast")
-	bool ConvertArrayToSegmentation(TArray<int32> Array);
+	FString GetCurrentTime();
+
+	UFUNCTION(BlueprintCallable, Category = "Raycast")
+	bool ConvertArrayToSegmentation(TArray<int32> array, FString directory, FString currentTime);
+
+	UFUNCTION(BlueprintCallable, Category = "Raycast")
+	bool TakeScreenshot(int32 size, FString directory, FString currentTime);
 };
