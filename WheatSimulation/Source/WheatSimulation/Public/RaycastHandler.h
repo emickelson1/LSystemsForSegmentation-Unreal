@@ -13,10 +13,8 @@ UCLASS()
 class WHEATSIMULATION_API URaycastHandler : public UGameInstanceSubsystem
 {
 	GENERATED_BODY()
-	
+
 public:
 	UFUNCTION(BlueprintCallable, Category = "Raycast")
-	bool PerformRaycast();
-	// bool PerformRaycast(const FVector& Start, const FVector& End, TArray<AActor*> ActorsToIgnore = TArray<AActor*>(), ECollisionChannel TraceChannel = ECC_Visibility);
-	
+	TArray<int32> GetSegmentationArray();
 };
