@@ -73,7 +73,6 @@ WheatSimulation/Plugins/**/Intermediate/*
 # Cache files for the editor to use
 WheatSimulation/DerivedDataCache/*
 
-
 # Blender backup files
 *.blend1
 
@@ -82,11 +81,13 @@ Assets/*
 
 # Large assets to exclude from git - instead download from google drive
 WheatSimulation/Content/Wheat/*
-WheatSimulation/Content/WheatMeshes/*
-WheatSimulation/Content/Materials/Soil/*
+WheatSimulation/Content/Fab/Megascans/Plants/**
+WheatSimulation/Content/Fab/Megascans/Surfaces/**
 
-# VSCode related files
+# VSCode and related files
 WheatSimulation/.vscode/*
+WheatSimulation/.vsconfig
+WheatSimulation/UpgradeLog.htm
 WheatSimulation/Makefile
 WheatSimulation/WheatSimulation.code-workspace
 WheatSimulation/.ignore
@@ -94,9 +95,3 @@ WheatSimulation/GenerateProjectFiles.sh
 
 # Script for quickly launching UE5 on linux
 launch_ue5.sh
-
-# More VS generated files
-WheatSimulation/.vsconfig
-WheatSimulation/UpgradeLog.htm
-WheatSimulation/Content/Fab/Megascans/Plants/**
-WheatSimulation/Content/Fab/Megascans/Surfaces/**
