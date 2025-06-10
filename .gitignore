@@ -99,3 +99,4 @@ launch_ue5.sh
 WheatSimulation/.vsconfig
 WheatSimulation/UpgradeLog.htm
 WheatSimulation/Content/Fab/Megascans/Plants/**
+WheatSimulation/Content/Fab/Megascans/Surfaces/**
