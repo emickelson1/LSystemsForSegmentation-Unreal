@@ -82,6 +82,7 @@ Assets/*
 
 # Large assets to exclude from git - instead download from google drive
 WheatSimulation/Content/Wheat/*
+WheatSimulation/Content/WheatMeshes/*
 WheatSimulation/Content/Materials/Soil/*
 
 # VSCode related files
@@ -93,3 +94,7 @@ WheatSimulation/GenerateProjectFiles.sh
 
 # Script for quickly launching UE5 on linux
 launch_ue5.sh
+
+# More VS generated files
+WheatSimulation/.vsconfig
+WheatSimulation/UpgradeLog.htm

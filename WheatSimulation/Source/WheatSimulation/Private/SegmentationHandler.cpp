@@ -13,7 +13,16 @@
 FString USegmentationHandler::GetCurrentTime() {
     std::time_t t = std::time(nullptr);         // current time
     std::tm localTime{};                        // make structure for local time values
-    localtime_r(&t, &localTime);                // convert to local time
+    
+    time_t now = time(0);
+    tm tstruct;
+
+    #if defined(_WIN32)
+        localtime_s(&tstruct, &now);
+    #else
+        localtime_r(&now, &tstruct);
+    #endif
+
     std::ostringstream oss;                     // string stream for formatting
     oss << std::put_time(&localTime, "%Y-%m-%d_%H:%M:%S");    // use put_time to format the date and time
     return FString(oss.str().c_str());
