@@ -98,3 +98,4 @@ launch_ue5.sh
 # More VS generated files
 WheatSimulation/.vsconfig
 WheatSimulation/UpgradeLog.htm
+WheatSimulation/Content/Fab/Megascans/Plants/**
