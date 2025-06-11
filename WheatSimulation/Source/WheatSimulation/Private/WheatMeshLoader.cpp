@@ -18,7 +18,7 @@ TArray<TSoftObjectPtr<UStaticMesh>> UWheatMeshLoader::LoadWheatMeshes(const FStr
 
     // Prepare the filter
     FARFilter Filter;
-    Filter.ClassNames.Add(UStaticMesh::StaticClass()->GetFName());
+    Filter.ClassPaths.Add(UStaticMesh::StaticClass()->GetClassPathName());
     Filter.PackagePaths.Add(*BasePath);
     Filter.bRecursivePaths = true;
 
